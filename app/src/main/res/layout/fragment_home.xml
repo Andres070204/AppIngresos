@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorWhite"
+    tools:context=".Inicio.HomeActivity">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalles del Camión"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Placa -->
+    <TextView
+        android:id="@+id/textViewPlaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Placa:"
+        android:textSize="16sp"
+        android:layout_marginTop="96dp"
+        android:layout_gravity="top"/>
+
+    <EditText
+        android:id="@+id/editTextPlaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese la placa"
+        android:inputType="textCapCharacters"
+        android:layout_below="@id/textViewPlaca"
+        android:layout_marginTop="112dp"/>
+
+    <!-- Modelo -->
+    <TextView
+        android:id="@+id/textViewModelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modelo:"
+        android:textSize="16sp"
+        android:layout_marginTop="176dp"
+        android:layout_gravity="top"/>
+
+    <EditText
+        android:id="@+id/editTextModelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el modelo"
+        android:layout_below="@id/textViewModelo"
+        android:layout_marginTop="192dp"/>
+
+    <!-- Color -->
+    <TextView
+        android:id="@+id/textViewColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color:"
+        android:textSize="16sp"
+        android:layout_marginTop="256dp"
+        android:layout_gravity="top"/>
+
+    <EditText
+        android:id="@+id/editTextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el color"
+        android:layout_below="@id/textViewColor"
+        android:layout_marginTop="272dp"/>
+
+    <!-- Motor -->
+    <TextView
+        android:id="@+id/textViewMotor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Motor:"
+        android:textSize="16sp"
+        android:layout_marginTop="336dp"
+        android:layout_gravity="top"/>
+
+    <EditText
+        android:id="@+id/editTextMotor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el motor"
+        android:layout_below="@id/textViewMotor"
+        android:layout_marginTop="352dp"/>
+
+    <!-- Botón Guardar -->
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="200dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="Guardar"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <!-- Botón Mostrar Camiones del Propietario -->
+    <Button
+        android:id="@+id/btnMostrarCamiones"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_gravity="bottom"
+        android:text="Mostrar Camiones del Propietario"
+        android:layout_marginBottom="120dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <!-- RecyclerView para mostrar los camiones -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCamiones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+</FrameLayout>

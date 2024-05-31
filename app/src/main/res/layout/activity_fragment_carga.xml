@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorWhite">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <EditText
+                android:id="@+id/editTextDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Descripción" />
+
+            <EditText
+                android:id="@+id/editTextWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Peso" />
+
+            <EditText
+                android:id="@+id/editTextVolume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Volumen" />
+            <EditText
+                android:id="@+id/editTextOrigin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Origen" />
+            <EditText
+                android:id="@+id/editTextDestination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Destino" />
+
+            <Spinner
+                android:id="@+id/spinnerDriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/select1_driver_prompt" />
+
+            <Spinner
+                android:id="@+id/spinnerTruck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/select_truck_prompt" />
+
+            <Button
+                android:id="@+id/buttonSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agregar Carga" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

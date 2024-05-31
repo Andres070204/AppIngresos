@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="select_driver_prompt">Selecciona un conductor</string>
+    <string name="app_name">map\n</string>
+    <string name="title_registro_camion">Registro de Camión</string>
+    <string-array name="colombia_cities">
+        <item>Bogotá</item>
+        <item>Medellín</item>
+        <item>Cali</item>
+        <item>Barranquilla</item>
+        <item>Cartagena</item>
+    </string-array>
+
+        <!-- Otras cadenas existentes -->
+
+
+        <string name="select_truck_prompt">Seleccionar Camión</string>
+    <string name="select1_driver_prompt">Selecciona un conductor</string>
+
+
+
+
+
+</resources>

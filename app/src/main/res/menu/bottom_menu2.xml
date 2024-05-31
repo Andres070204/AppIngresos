@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homes"
+        android:title="Asignar Camion"
+        android:icon="@drawable/baseline_home_24"/>
+
+    <item
+        android:id="@+id/shorts"
+        android:title="Seguir Ruta"
+        android:icon="@drawable/baseline_add_alert_24"/>
+
+    <item
+        android:id="@+id/fab"
+        android:title=""
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/pedidos"
+        android:title="Calificar App"
+        android:icon="@drawable/baseline_add_alert_24"/>
+
+    <item
+        android:id="@+id/config"
+        android:title="Perfil "
+        android:icon="@drawable/baseline_admin_panel_settings_24"/>
+
+</menu>

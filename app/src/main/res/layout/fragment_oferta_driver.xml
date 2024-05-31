@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Contenedor para el ListView -->
+    <ListView
+        android:id="@+id/list_view_offers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Diseño para el título -->
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ofertas Disponibles"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:visibility="gone" />
+
+    <!-- Diseño para los botones de aceptar y rechazar (ocultos inicialmente) -->
+    <LinearLayout
+        android:id="@+id/layout_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:padding="16dp"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btn_accept"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Aceptar" />
+
+        <Button
+            android:id="@+id/btn_reject"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Rechazar" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Estado del pedido -->
+    <TextView
+        android:id="@+id/tvEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado: En proceso"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Información de los involucrados -->
+    <TextView
+        android:id="@+id/tvInvolucrados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Involucrados: Juan Pérez - MercaTodo"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Hora y fecha del pedido -->
+    <TextView
+        android:id="@+id/tvHoraFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hora: 15:30, Fecha: 04/04/2024"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Origen y destino del pedido -->
+    <TextView
+        android:id="@+id/tvOrigenDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Origen: Bogotá D.C, Cundinamarca - Destino: Pereira, Risaralda"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón para mostrar la ubicación -->
+    <Button
+        android:id="@+id/btnMostrarUbicacionFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:drawableLeft="@drawable/baseline_add_location_alt_24"
+        android:text="Mostrar Ubicación" />
+
+</LinearLayout>

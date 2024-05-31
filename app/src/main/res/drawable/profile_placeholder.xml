@@ -1,0 +1,13 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fondo blanco -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/white"/>
+        </shape>
+    </item>
+    <!-- Icono de usuario -->
+    <item
+        android:drawable="@drawable/ic_user"
+        android:gravity="center">
+    </item>
+</layer-list>

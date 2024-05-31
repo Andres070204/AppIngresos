@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "765548242477",
+    "project_id": "ingreso-46ff2",
+    "storage_bucket": "ingreso-46ff2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765548242477:android:2a7aadec5e1bf488f3baa4",
+        "android_client_info": {
+          "package_name": "co.edu.unipiloto.ingreso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765548242477-tdajdumtq0pvalb2vsh309ujufk8jdba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDumOI0O-REgi9jcB4tZ5u4pOnWISXphGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765548242477-tdajdumtq0pvalb2vsh309ujufk8jdba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

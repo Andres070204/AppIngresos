@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewDriverName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewTruck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Camión"
+        android:layout_below="@id/textViewDriverName"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:id="@+id/spinnerTruck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTruck"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonAssignTruck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escoger Camión"
+        android:layout_below="@id/spinnerTruck"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

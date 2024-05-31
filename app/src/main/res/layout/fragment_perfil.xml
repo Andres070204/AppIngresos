@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Imagen del perfil -->
+    <ImageView
+        android:id="@+id/image_profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_man_user" />
+
+
+    <!-- Botón para editar nombre de usuario -->
+    <Button
+        android:id="@+id/button_edit_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Editar Nombre de Usuario" />
+
+    <!-- Botón para editar email -->
+    <Button
+        android:id="@+id/button_edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Editar Email" />
+
+    <!-- EditText para la contraseña actual -->
+    <EditText
+        android:id="@+id/edit_text_current_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Contraseña Actual"
+        android:inputType="textPassword" />
+
+    <!-- EditText para la nueva contraseña -->
+    <EditText
+        android:id="@+id/edit_text_new_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Nueva Contraseña"
+        android:inputType="textPassword" />
+
+    <!-- Botón para cambiar contraseña -->
+    <Button
+        android:id="@+id/button_change_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Cambiar Contraseña" />
+
+</LinearLayout>
